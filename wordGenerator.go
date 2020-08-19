@@ -25,7 +25,7 @@ func getAlphabets() []rune {
 	alphabets := make([]rune, length)
 
 	for i := 0; i < length; i++ {
-		alphabets[i] = rune(95 + i)
+		alphabets[i] = rune(97 + i)
 	}
 
 	return alphabets
